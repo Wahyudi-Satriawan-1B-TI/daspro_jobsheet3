@@ -6,11 +6,10 @@ public class tugas1 {
         Scanner input = new Scanner(System.in);
 
         //Deklarasi tipe data dengan data yang sesuai
-        boolean lebih;
         int kwh;
         double harga = 1500.0, totalTagihan;
 
-        System.out.print("Masukkan jumlah kWh: ");
+        System.out.print("Masukkan jumlah kWh yang anda gunakan: ");
         kwh = input.nextInt();
         input.close();
 
